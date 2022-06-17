@@ -22,3 +22,9 @@ window.addEventListener('DOMContentLoaded', function()
     a.appendChild(logo);
     body.appendChild(a);
 });
+
+function blank__() {
+    if (!window.location.href.includes('github')) return;
+
+    return;
+}
